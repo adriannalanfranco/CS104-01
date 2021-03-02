@@ -9,8 +9,8 @@ elif temp> 50:
     print("Wear a jacket")
 elif temp> 32:
     print("Wear a heavy coat")
-elif temp< 32:
-    print("Stay Inside")
+else: temp< 32
+print("Stay Inside")
 
 
 
